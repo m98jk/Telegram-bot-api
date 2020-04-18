@@ -24,7 +24,7 @@ bot.on("message", (msg) => {
   }
   bot.sendMessage(msg.chat.id, "Hi, do you want to travel?", {
     reply_markup: {
-      keyboard: [["FUCK THEM"], ["Hack them"]],
+      keyboard: [["Press"], ["SEE them"]],
     },
   });
 });
